@@ -1,6 +1,21 @@
 {
+  "name": "aula-5-endpoint-estruturado",
+  "version": "1.0.0",
+  "description": "Markdown\r # API RESTful com Node.js, Express e SQLite",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "init-db": "node ./database/database.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7"
-  }
+  },
+  "devDependencies": {}
 }
